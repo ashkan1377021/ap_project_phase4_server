@@ -12,3 +12,10 @@ ashkan1998 got 1th user between users
 Server started
 process of client1 sign in started
 The username that client1 entered (ashkan1998) was existed
+Server started
+ashkan1998 came to Tweeting service
+receive from ashkan1998 : 1
+process of add a tweet by ashkan1998  started
+the Tweet (Hello ashkan!) created by ashkan1998
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
