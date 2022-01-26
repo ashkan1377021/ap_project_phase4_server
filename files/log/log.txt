@@ -1,0 +1,11 @@
+Server started
+process of client1 sign up started
+first name of client1 is:ashkan
+last name of client1 is:mogharab
+username of client1 is:ashkan1998
+password of client1 is:ashkan231998
+birth_year of client1 is:1998
+birth_month of client1 is:12
+birthday of client1 is:28
+Bio of client1 is: deymahi
+ashkan1998 got 1th user between users
