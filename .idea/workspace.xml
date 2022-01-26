@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c02f87-840b-4490-9d6a-b5581792b07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/UserUtilService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/UserUtilService_impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/usefulMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/model/users/ali1998.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/model/users/ali1998.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/model/users/ashkan1998.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/model/users/ashkan1998.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/model/users/hossein1998.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/model/users/names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/model/users/names.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/ClientAuthenticationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/ClientObserverService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/ClientTimelineService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/ClientTweetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/impl/ClientAuthenticationService_impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/impl/ClientObserverService_impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/impl/ClientTimelineService_impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/client/impl/ClientTweetingService_impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/File_utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/File_utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/ObserverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/ObserverService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/TimelineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/TimelineService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/Tweet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/AuthenticationService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/AuthenticationService_impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/ObserverService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/ObserverService_impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TimelineService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TimelineService_impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TweetingService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TweetingService_impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/ClientAuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/ClientObserverService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/ClientTimelineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/ClientTweetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/impl/ClientAuthenticationService_impl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/impl/ClientObserverService_impl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/impl/ClientTimelineService_impl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/client/impl/ClientTweetingService_impl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/File_utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/File_utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/ObserverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/ObserverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/TimelineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/TimelineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/AuthenticationService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/AuthenticationService_impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/ObserverService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/ObserverService_impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TimelineService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TimelineService_impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TweetingService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TweetingService_impl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../clientGui" />
+    <property name="last_opened_file_path" value="D:/temp/Twitter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="optimize.imports.on.save" value="true" />
@@ -209,6 +163,7 @@
       <workItem from="1643124819658" duration="2621000" />
       <workItem from="1643191147839" duration="1632000" />
       <workItem from="1643192840256" duration="153000" />
+      <workItem from="1643196006839" duration="786000" />
     </task>
     <servers />
   </component>
