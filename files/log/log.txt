@@ -9,3 +9,6 @@ birth_month of client1 is:12
 birthday of client1 is:28
 Bio of client1 is: deymahi
 ashkan1998 got 1th user between users
+Server started
+process of client1 sign in started
+The username that client1 entered (ashkan1998) was existed
