@@ -19,3 +19,82 @@ process of add a tweet by ashkan1998  started
 the Tweet (Hello ashkan!) created by ashkan1998
 process of observe Timeline by ashkan1998  started
 process of observe Timeline by ashkan1998 ended
+Server started
+process of client1 sign up started
+first name of client1 is:ali
+last name of client1 is:karimi
+username of client1 is:ali1998
+password of client1 is:ali231998
+birth_year of client1 is:1998
+birth_month of client1 is:12
+birthday of client1 is:28
+Bio of client1 is: deymahi
+Server started
+process of client1 sign up started
+first name of client1 is:ali
+last name of client1 is:karimi
+The username that client1 entered is duplicate
+password of client1 is:ali231998
+birth_year of client1 is:1998
+birth_month of client1 is:12
+birthday of client1 is:28
+Bio of client1 is: deymahi
+process of client2 sign up started
+first name of client2 is:ali
+last name of client2 is:karimi
+The username that client2 entered is duplicate
+password of client2 is:ali231998
+birth_year of client2 is:1998
+birth_month of client2 is:12
+birthday of client2 is:28
+Bio of client2 is: deymahi
+Server started
+process of client1 sign up started
+first name of client1 is:ali
+last name of client1 is:karimi
+username of client1 is:ali1998
+password of client1 is:ali231998
+birth_year of client1 is:1998
+birth_month of client1 is:12
+birthday of client1 is:28
+Bio of client1 is: deymahi
+ali1998 got 2th user between users
+process of client2 sign in started
+The username that client2 entered (ali1998) was existed
+ali1998 came to Tweeting service
+receive from ali1998 : 1
+process of add a tweet by ali1998  started
+the Tweet (Hello ali) created by ali1998
+process of observe Timeline by ali1998  started
+process of observe Timeline by ali1998 ended
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 3
+process of check existence of ali1998 by ashkan1998  started
+ali1998 existed and we informed it to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ali1998 by ashkan1998  started
+information of ali1998 successfully sent to ashkan1998
+ashkan1998 came to Observer service
+receive from ashkan1998 : 1
+process of follow a user by ashkan1998  started
+ashkan1998 wants to follow ali1998
+follow process of ali1998 by ashkan1998 successfully done
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
