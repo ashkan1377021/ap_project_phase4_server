@@ -34,6 +34,7 @@ public class UserUtilService_impl implements UserUtilService {
     /**
      * creates a new UserUtil service
      *
+     * @param index            index of the user
      * @param users            users of ServerSide
      * @param connectionSocket a socket for connecting  to user
      */
