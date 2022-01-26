@@ -149,7 +149,17 @@ public class TweetingService_impl implements TweetingService {
     public void remove() throws InterruptedException {
         System.out.println("process of remove a tweet by " + users.get(index).getUsername() + "  started");
         file_utility.record_events("process of remove a tweet by " + users.get(index).getUsername() + "  started");
-        int ix = Integer.parseInt(usefulmethods.read_message(in));
+        int ix = -1;
+        String textOfTweet = usefulmethods.read_message(in);
+        String sendTime = usefulmethods.read_message(in);
+        for (int i = 0; i < users.get(index).getTweets().size(); i++) {
+            if (users.get(index).getTweets().get(i).getSender().getUsername().equals(users.get(index).getUsername()) &&
+                    users.get(index).getTweets().get(i).getText().equals(textOfTweet) &&
+                    users.get(index).getTweets().get(i).getSendDate().toString().equals(sendTime)) {
+                ix = i;
+            }
+        }
+
         System.out.println("the tweet(" + users.get(index).getTweets().get(ix).getText() + ") removed by " + users.get(index).getUsername());
         file_utility.record_events("the tweet(" + users.get(index).getTweets().get(ix).getText() + ") removed by " + users.get(index).getUsername());
         ArrayList<User> likes = users.get(index).getTweets().get(ix).getLikes();
@@ -168,7 +178,6 @@ public class TweetingService_impl implements TweetingService {
                     break;
                 }
         }
-
         users.get(index).getTweets().remove(ix);
         file_utility.make_changes(users);
         Thread.sleep(1);

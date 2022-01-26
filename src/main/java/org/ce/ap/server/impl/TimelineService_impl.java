@@ -63,7 +63,7 @@ public class TimelineService_impl implements TimelineService {
                 Thread.sleep(100);
                 usefulmethods.send_message(out, "" + tweet.getText());
                 Thread.sleep(100);
-                usefulmethods.send_message(out, tweet.getSendDate().getYear() + "\\" + tweet.getSendDate().getMonth() + "\\" + tweet.getSendDate().getDayOfMonth() + "  " + tweet.getSendDate().getHour() + ":" + tweet.getSendDate().getMinute() + ":" + +tweet.getSendDate().getSecond());
+                usefulmethods.send_message(out, tweet.getSendDate().toString());
                 Thread.sleep(100);
             }
             int count1 = users.get(index).getFavoriteUsers().size();
@@ -84,7 +84,7 @@ public class TimelineService_impl implements TimelineService {
                 usefulmethods.send_message(out, "" + tweets.size());
                 Thread.sleep(101);
                 for (Tweet tweet : tweets) {
-                    usefulmethods.send_message(out, tweet.getSendDate().getYear() + "\\" + tweet.getSendDate().getMonth() + "\\" + tweet.getSendDate().getDayOfMonth() + "  " + tweet.getSendDate().getHour() + ":" + tweet.getSendDate().getMinute() + ":" + +tweet.getSendDate().getSecond());
+                    usefulmethods.send_message(out, tweet.getSendDate().toString());
                     Thread.sleep(101);
                     usefulmethods.send_message(out, "" + tweet.getRetweets().size());
                     Thread.sleep(101);
@@ -102,7 +102,7 @@ public class TimelineService_impl implements TimelineService {
                     Thread.sleep(102);
                     usefulmethods.send_message(out, tweet.getSender().getUsername());
                     Thread.sleep(102);
-                    usefulmethods.send_message(out, tweet.getSendDate().getYear() + "\\" + tweet.getSendDate().getMonth() + "\\" + tweet.getSendDate().getDayOfMonth() + "  " + tweet.getSendDate().getHour() + ":" + tweet.getSendDate().getMinute() + ":" + +tweet.getSendDate().getSecond());
+                    usefulmethods.send_message(out, tweet.getSendDate().toString());
                     Thread.sleep(102);
                     usefulmethods.send_message(out, "" + tweet.getRetweets().size());
                     Thread.sleep(102);
@@ -118,7 +118,7 @@ public class TimelineService_impl implements TimelineService {
                     Thread.sleep(103);
                     usefulmethods.send_message(out, liked.getSender().getUsername());
                     Thread.sleep(103);
-                    usefulmethods.send_message(out, liked.getSendDate().getYear() + "\\" + liked.getSendDate().getMonth() + "\\" + liked.getSendDate().getDayOfMonth() + "  " + liked.getSendDate().getHour() + ":" + liked.getSendDate().getMinute() + ":" + +liked.getSendDate().getSecond());
+                    usefulmethods.send_message(out, liked.getSendDate().toString());
                     Thread.sleep(103);
                     usefulmethods.send_message(out, "" + liked.getRetweets().size());
                     Thread.sleep(103);

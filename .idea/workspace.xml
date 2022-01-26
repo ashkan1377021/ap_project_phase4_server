@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c02f87-840b-4490-9d6a-b5581792b07f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/model/users/ashkan1998.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/model/users/ashkan1998.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/model/users/ali1998.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/model/users/ashkan1998.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/model/users/names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/model/users/names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TimelineService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TimelineService_impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TweetingService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/main/java/org/ce/ap/server/impl/TweetingService_impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TimelineService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TimelineService_impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TweetingService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ce/ap/server/impl/TweetingService_impl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +172,7 @@
       <workItem from="1643192840256" duration="153000" />
       <workItem from="1643196006839" duration="3507000" />
       <workItem from="1643201548007" duration="441000" />
-      <workItem from="1643205706098" duration="5247000" />
+      <workItem from="1643205706098" duration="8571000" />
     </task>
     <servers />
   </component>
