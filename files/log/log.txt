@@ -98,3 +98,27 @@ process of receive information of ashkan1998 by ashkan1998  started
 information of ashkan1998 successfully sent to ashkan1998
 process of observe Timeline by ashkan1998  started
 process of observe Timeline by ashkan1998 ended
+Server started
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 3
+process of check existence of ali1998 by ashkan1998  started
+ali1998 existed and we informed it to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ali1998 by ashkan1998  started
+information of ali1998 successfully sent to ashkan1998
+ashkan1998 came to Observer service
+receive from ashkan1998 : 2
+process of unfollow a user by ashkan1998  started
+ashkan1998 wants to unfollow ali1998
+unfollow process of ali1998 by ashkan1998 successfully done
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
