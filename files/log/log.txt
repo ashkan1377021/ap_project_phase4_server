@@ -148,3 +148,26 @@ ashkan1998 wants to retweet 1th tweet of ali1998
 reTweeting process by ashkan1998 successfully done
 process of observe Timeline by ashkan1998  started
 process of observe Timeline by ashkan1998 ended
+Server started
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 1
+process of set image by ashkan1998  started
+process of set image by ashkan1998 ended
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+ashkan1998 came to UserUtil service
+receive from ashkan1998 : 2
+process of receive information of ashkan1998 by ashkan1998  started
+information of ashkan1998 successfully sent to ashkan1998
+process of observe Timeline by ashkan1998  started
+process of observe Timeline by ashkan1998 ended
