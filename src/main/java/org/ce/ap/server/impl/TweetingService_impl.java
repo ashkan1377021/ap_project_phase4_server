@@ -108,17 +108,27 @@ public class TweetingService_impl implements TweetingService {
             System.out.println("process of retweet a tweet by " + users.get(index).getUsername() + "  started");
             file_utility.record_events("process of retweet a tweet by " + users.get(index).getUsername() + "  started");
             int ix1 = -1;
-            int ix2;
+            int ix2 = -1;
             String goalUser = (usefulmethods.read_message(in));
+            String textOfTweet = usefulmethods.read_message(in);
+            String sendTime = usefulmethods.read_message(in);
             for (int i = 0; i < users.size(); i++) {
                 if (users.get(i).getUsername().equals(goalUser)) {
                     ix1 = i;
                     break;
                 }
             }
+            for (int j = 0; j < users.get(ix1).getTweets().size(); j++) {
+                if (users.get(ix1).getTweets().get(j).getSender().getUsername().equals(goalUser)
+                        && users.get(ix1).getTweets().get(j).getText().equals(textOfTweet)
+                        && users.get(ix1).getTweets().get(j).getSendDate().toString().equals(sendTime)) {
+                    ix2 = j;
+                    break;
+                }
+
+            }
             System.out.println(users.get(index).getUsername() + " wants to retweet from user " + goalUser);
             file_utility.record_events(users.get(index).getUsername() + " wants to retweet from user " + goalUser);
-            ix2 = Integer.parseInt(usefulmethods.read_message(in));
             System.out.println(users.get(index).getUsername() + " wants to retweet " + (ix2 + 1) + "th tweet of " + goalUser);
             file_utility.record_events(users.get(index).getUsername() + " wants to retweet " + (ix2 + 1) + "th tweet of " + goalUser);
             ArrayList<String> retweets = new ArrayList<>();
@@ -190,17 +200,27 @@ public class TweetingService_impl implements TweetingService {
         System.out.println("process of like a tweet by " + users.get(index).getUsername() + "  started");
         file_utility.record_events("process of like a tweet by " + users.get(index).getUsername() + "  started");
         int ix1 = -1;
-        int ix2;
+        int ix2 = -1;
         String goalUser = usefulmethods.read_message(in);
+        String textOfTweet = usefulmethods.read_message(in);
+        String sendTime = usefulmethods.read_message(in);
         for (int j = 0; j < users.size(); j++) {
             if (users.get(j).getUsername().equals(goalUser)) {
                 ix1 = j;
                 break;
             }
         }
+        for (int i = 0; i < users.get(ix1).getTweets().size(); i++) {
+            if (users.get(ix1).getTweets().get(i).getSender().getUsername().equals(goalUser)
+                    && users.get(ix1).getTweets().get(i).getText().equals(textOfTweet)
+                    && users.get(ix1).getTweets().get(i).getSendDate().toString().equals(sendTime)) {
+                ix2 = i;
+                break;
+            }
+
+        }
         System.out.println(users.get(index).getUsername() + " wants to like a tweet from " + goalUser);
         file_utility.record_events(users.get(index).getUsername() + " wants to like a tweet from " + goalUser);
-        ix2 = Integer.parseInt(usefulmethods.read_message(in));
         System.out.println(users.get(index).getUsername() + " wants to like " + (ix2 + 1) + "th tweet of " + goalUser);
         file_utility.record_events(users.get(index).getUsername() + " wants to like " + (ix2 + 1) + "th tweet of " + goalUser);
         ArrayList<String> likes = new ArrayList<>();
